@@ -1,0 +1,28 @@
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERICS*/
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*UTILITIES*/
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.c-yellow{
+    color: yellow;
+}
+.c-green{
+    color: green;
+}
