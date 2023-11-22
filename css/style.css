@@ -6,9 +6,9 @@
 }
 
 /*GENERICS*/
-/*html{
+html{
     overflow-y: hidden;
-}*/
+}
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -63,6 +63,7 @@ body{
     gap: 40px;
 }
 .menu a{
+    color: black;
     text-decoration: none;
     font-weight: 900;
     font-size: 20px;
@@ -75,4 +76,16 @@ body{
     border-radius: 50%;
     line-height: 45px;
     text-align: center;
+}
+
+.menu li:hover{
+    scale: 1.2;
+    box-shadow: 0px 0px 20px darkred;
+}
+.menu li:active{
+    scale: 0.8;
+}
+.menu a:active{
+    color: gray;
+    text-shadow: 0px 0px 20px black;
 }
