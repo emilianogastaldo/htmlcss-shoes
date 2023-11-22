@@ -6,6 +6,9 @@
 }
 
 /*GENERICS*/
+/*html{
+    overflow-y: hidden;
+}*/
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -30,6 +33,7 @@ body{
 }
 
 /*MAIN*/
+
 /*CREO LA PRIMA PAGINA*/
 .page{
     height: 100vh;
@@ -45,4 +49,30 @@ body{
     text-align: center;
     font-size:3rem;
     font-weight: 900;
+}
+
+/*CREO LA NAV BAR*/
+.nav-bar{
+    position: fixed;
+    right: 20px;
+    top: 30px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    display: block;
+}
+.menu li{
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
 }
