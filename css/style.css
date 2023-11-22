@@ -26,3 +26,16 @@ body{
 .c-green{
     color: green;
 }
+
+/*MAIN*/
+/*CREO LA PRIMA PAGINA*/
+.page{
+    height: 100vh;
+    position: relative;
+}
+.page-card{
+    position:absolute;
+    left:50%;
+    top:50%;
+    translate: -50% -50%;
+}
