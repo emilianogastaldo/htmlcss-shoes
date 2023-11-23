@@ -69,24 +69,20 @@ body{
     font-weight: 900;
     font-size: 20px;
     display: block;
-}
-.menu li{
     background-color: white;
     height: 45px;
     width: 45px;
     border-radius: 50%;
     line-height: 45px;
-    text-align: center;
+    text-align: center
 }
 
-.menu li:hover{
+.menu a:hover{
     scale: 1.2;
     box-shadow: 0px 0px 20px darkred;
 }
 .menu li:active{
     scale: 0.8;
-}
-.menu a:active{
     color: gray;
     text-shadow: 0px 0px 20px black;
 }
