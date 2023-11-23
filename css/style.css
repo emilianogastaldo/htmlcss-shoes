@@ -8,6 +8,7 @@
 /*GENERICS*/
 html{
     overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Rubik Mono One', sans-serif;
